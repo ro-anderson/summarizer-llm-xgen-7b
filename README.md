@@ -1,5 +1,6 @@
 # Summarizer with Salesforce LM Model XGen-7B
-This repository contains an implementation based on one of [@abhishekkrthakur](https://github.com/abhishekkrthakur)'s videos, which you can view [here](https://www.linkedin.com/posts/abhi1thakur_xgen-was-released-yesterday-by-salesforce-activity-7080405083410079744-04mG?utm_source=share&utm_medium=member_desktop).
+This repository is a demonstration of using the state-of-the-art language model XGen-7B developed by Salesforce for text summarization, based on an implementation inspired by one of [@abhishekkrthakur](https://github.com/abhishekkrthakur)'s videos, which you can view [here](https://www.linkedin.com/posts/abhi1thakur_xgen-was-released-yesterday-by-salesforce-activity-7080405083410079744-04mG?utm_source=share&utm_medium=member_desktop).
+
 ## App Snapshot
 <img width="1426" alt="image" src="https://github.com/ro-anderson/summarizer-llm-xgen-7b/assets/41929105/faf13bb6-9ea9-43bf-9458-5a5e087d0fa1">
 
