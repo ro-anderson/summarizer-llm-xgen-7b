@@ -15,24 +15,26 @@ The repository includes a Makefile that automates the setup process. The setup i
 To install the necessary libraries and setup the environment, you can run the following command:
 
 ```bash
-make install
-After running the installation command, activate the Python virtual environment with the following command:
-
-bash
-Copy code
+make create-env
 source venv/bin/activate
+```
+
 You will see (venv) at the beginning of your command prompt, indicating that you are inside the virtual environment.
 
-Usage
+## Usage
 With the virtual environment activated, you can now run the app.py script:
 
-bash
-Copy code
+```python
 python app.py
+```
+
 The app.py script will load the pre-trained XGen-7B model and create a Gradio interface for text summarization. You can input a long text, and the model will return a shorter summary.
 
-By default, the application runs on 127.0.0.1:7861.
+By default, the application runs on:
+```bash
+127.0.0.1:7861
+```
 
-Disclaimer
+## Disclaimer
 This repository is for demonstration purposes. While the XGen-7B model produces high-quality text summaries, it requires significant computational resources and may not be suitable for all applications. Always consider the trade-off between performance and resource requirements when choosing a model for your application.
 
